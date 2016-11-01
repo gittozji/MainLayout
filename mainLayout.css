@@ -11,7 +11,7 @@ html, body{
     z-index: 998;
     width: 250px;
     height: 100%;
-    overflow-y: hidden;;
+    overflow-y: scroll;
 
     position: fixed;
 
