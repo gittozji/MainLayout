@@ -4,8 +4,8 @@ $(window).resize(function(){
 
 $(document).on("mouseover mouseout",".sidebar",function(e){
     if(e.type == "mouseover"){
-        $(this).css("overflowY","scroll");
+        $(this).css("overflow","auto");
     }else{
-        $(this).css("overflowY","hidden");
+        $(this).css("overflow","hidden");
     }
 })

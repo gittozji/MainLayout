@@ -1,27 +1,27 @@
-html, body{
-    margin:0;
-    height:100%;
+body{
+    margin: auto;
 }
 .root-layout{
     width: 100%;
     height: 100%;
-    background-color: #ccc;
+    background-color: #111111;
 }
 .sidebar{
-    z-index: 998;
     width: 250px;
     height: 100%;
-    overflow-y: scroll;
-    position: fixed;
+    float: left;
+    margin-right: -250px;
+    overflow: hidden;
+    position: relative;
+    background-color: #0A8BCC;
 }
-.sidebar ul li{
-    font-size: 14em;
+.main-parent{
+    width: 100%;
+    height: 100%;
+    float: right;
+    background-color: darkolivegreen;
 }
 .main{
-    width: auto;
     height: 100%;
-    padding-left: 250px;
-    background-color: darkolivegreen;
-    position: relative;
-    font-size: 34px;
+    margin-left: 250px;
 }
