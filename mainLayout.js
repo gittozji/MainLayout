@@ -3,6 +3,7 @@ $(window).resize(function(){
 });
 
 $(document).on("mouseover mouseout",".sidebar",function(e){
+    alert("dd");
     if(e.type == "mouseover"){
         $(this).css("overflow","auto");
     }else{
