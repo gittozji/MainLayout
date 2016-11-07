@@ -17,6 +17,6 @@ $(document).ready(function(){
 
     //导航栏开关点击事件
     $(".btn").click(function(){
-
+        alert("ddd");
     })
 })
