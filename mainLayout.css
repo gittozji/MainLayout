@@ -19,18 +19,16 @@ html,body{
     z-index: 998;
     width: 250px;
     height: 100%;
-    float: left;
-    margin-right: -250px;
     overflow: hidden;
     position: fixed;/*不随右边div滚动*/
     background-color: #0A8BCC;
 }
 .main-parent{
     width: 100%;
-    height: auto;
-    float: right;
+    height: auto;/*auto 能够被main撑开，100% 则只是浏览器窗口高度*/
     background-color: darkolivegreen;
 }
 .main{
     margin-left: 250px;
+    width: auto;/*不能为 100%*/
 }
