@@ -1,12 +1,12 @@
 html,body{
     margin: auto;
 }
-.screen{
+.mmd-screen{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 997;
     position: fixed;/*不随滚动条滚动*/
 }
-.sidebar{
+.mmd-sidebar{
     z-index: 998;
     width: 250px;
     height: 100%;
@@ -14,87 +14,7 @@ html,body{
     position: fixed;/*不随右边div滚动*/
     background-color: #0A8BCC;
 }
-.main{
+.mmd-main{
     margin-left: 250px;
     width: auto;/*不能为 100%*/
-}
-
-.mmd-sidebar-in{
-    animation: mmd-sidebar-animation-in 1s ease;
-    /*兼容各大浏览器*/
-    -moz-animation: mmd-sidebar-animation-in 1s ease-out;
-    -webkit-animation: mmd-sidebar-animation-in 1s ease-out;
-    -o-animation: mmd-sidebar-animation-in 1s ease-out;
-}
-.mmd-sidebar-out{
-    animation: mmd-sidebar-animation-in 1s ease;
-    /*兼容各大浏览器*/
-    -moz-animation: mmd-sidebar-animation-out 1s ease;
-    -webkit-animation: mmd-sidebar-animation-out 1s ease;
-    -o-animation: mmd-sidebar-animation-out 1s ease;
-}
-
-@keyframes mmd-sidebar-animation-in {
-    from{
-        left: -250px;
-    }
-    to{
-        left: 0;
-    }
-}
-@-webkit-keyframes mmd-sidebar-animation-in {
-    from{
-        left: -250px;
-    }
-    to{
-        left: 0;
-    }
-}
-@-moz-keyframes mmd-sidebar-animation-in {
-    from{
-        left: -250px;
-    }
-    to{
-        left: 0;
-    }
-}
-@-o-keyframes mmd-sidebar-animation-in {
-    from{
-        left: -250px;
-    }
-    to{
-        left: 0;
-    }
-}
-@keyframes mmd-sidebar-animation-out {
-    from{
-        left: 0;
-    }
-    to{
-        left: -250px;
-    }
-}
-@-webkit-keyframes mmd-sidebar-animation-out {
-    from{
-        left: 0;
-    }
-    to{
-        left: -250px;
-    }
-}
-@-moz-keyframes mmd-sidebar-animation-out {
-    from{
-        left: 0;
-    }
-    to{
-        left: -250px;
-    }
-}
-@-o-keyframes mmd-sidebar-animation-out {
-    from{
-        left: 0;
-    }
-    to{
-        left: -250px;
-    }
 }
