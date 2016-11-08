@@ -12,9 +12,16 @@ html,body{
     height: 100%;
     overflow: hidden;
     position: fixed;/*不随右边div滚动*/
-    background-color: #0A8BCC;
+    background-color: #fff;
 }
 .mmd-main{
+    background-color: #FCFCFC;
     margin-left: 250px;
     width: auto;/*不能为 100%*/
+}
+
+li{
+    font-size: 20px;
+    list-style-type:none;
+    margin: 10px 0;
 }
